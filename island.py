@@ -1,3 +1,7 @@
+
+##
+#im pretty sure my solution works but ineed to improve its time complexity 
+#passed 50/75 tests 
 class Solution:
     #recursive function counting
     #create a list of flags 
@@ -62,4 +66,4 @@ class Solution:
                    
         
        
-                    
+                   
