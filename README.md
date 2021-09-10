@@ -1,2 +1,2 @@
-# augustLeetCodeChallenge
-just the leet code challenge for august 
+# myLeetCodeProblems
+just the leet code problems
