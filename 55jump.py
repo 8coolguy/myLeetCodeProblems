@@ -16,5 +16,16 @@ class Solution:
                     break
         return dp[0]
                 
-            
+class Solution22:
+    def canJump(self, nums: List[int]) -> bool:
+        #rewrote the solution in O(n) insteasd of previos of O(n^2)
+        #sets max reached
+        max_index=0
+        for i in range(len(nums)):
+            #if iterate past max reached it failed
+            if i > max_index:
+                return False
+            #get the new max_reached from amt jump base
+            max_index = max(max_index, i+nums[i])
+        return True    
         
